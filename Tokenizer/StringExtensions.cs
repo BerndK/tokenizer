@@ -19,7 +19,7 @@ namespace Tokens
         {
             var result = value;
 
-            if (!string.IsNullOrEmpty(value) && !string.IsNullOrEmpty(match))
+            if (!string.IsNullOrEmpty(value) && match!= null)
             {
                 if (value.Contains(match))
                 {
